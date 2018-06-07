@@ -1,0 +1,9 @@
+/node_modules
+/dist
+/logs/*.log
+.idea
+npm-debug.log
+package-lock.json
+*.map
+*.d.ts
+*.js
