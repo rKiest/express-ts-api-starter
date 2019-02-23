@@ -14,4 +14,5 @@ export const saveValidator = [
             });
         }),
         // @todo: add time
+        check('time').exists()
 ];
