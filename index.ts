@@ -39,7 +39,7 @@ app.use('/', require('./src/routes/v1/greeting/save'));
 app.use(require('./middlewares/error-404.middleware'));
 app.use(require('./middlewares/error-global-handler.middleware'));
 
-// @todo: typeorm
+// @todo: typeorm ...
 // https://github.com/typeorm/typescript-express-example
 // https://jjude.com/hapi-orm/
 // https://github.com/DanielDent/docker-postgres-replication/blob/master/docker-compose.yml
